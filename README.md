@@ -39,3 +39,6 @@ venv\Scripts\activate     # Windows
 ```
 pip install -r requirements.txt
 ```
+* Additional Dependencies
+* Install libpq-dev, build-essential or other system-level dependencies if required by Weaviate or external libraries.
+* For GPU-based LLM backends, ensure CUDA drivers and libraries are installed.
