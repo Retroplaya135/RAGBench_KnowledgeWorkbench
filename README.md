@@ -103,7 +103,7 @@ class Plugin:
         pass
 ```
 
-Collaboration & RBAC
+## Collaboration & RBAC
 
 * Real-Time Chat & Annotation
 * Embeds a developer chat that references specific code snippets or documents within the knowledge graph.
@@ -112,3 +112,15 @@ Collaboration & RBAC
 * Access Control
 * Role-Based Access Control (RBAC) ensures only authorized users can access sensitive documents or code sections.
 * Audit logging captures ingestion, retrieval, and query usage data for compliance.
+
+## Security & Compliance
+
+* Data Lineage Tracking
+* Each chunk is stamped with metadata (hash, ingestion timestamp, origin path).
+
+## Encryption
+* At-rest encryption for sensitive data or code.
+* Auditing
+* Detailed logs of user queries and system interactions for compliance.
+* Failover LLM
+* Supports fallback to alternative LLM endpoints if the primary service is unavailable or hits rate limits.
