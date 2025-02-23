@@ -15,3 +15,9 @@ AI Knowledge Workbench 2025 is an advanced Retrieval-Augmented Generation (RAG) 
 * Collaboration tools for real-time knowledge sharing and annotation.
 * Enterprise-ready features like auditing, RBAC, data lineage tracking, and plugin-based extensibility.
 
+Installation
+
+* Prerequisites
+* Python 3.9+
+* Weaviate (Can use Embedded Weaviate or a remote instance)
+* Virtual Environment recommended
