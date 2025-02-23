@@ -22,6 +22,54 @@ Installation
 * Weaviate (Can use Embedded Weaviate or a remote instance)
 * Virtual Environment recommended
 
+```
+ ┌─────────────────────────────────────────────────┐
+ │       AI Knowledge Workbench 2025 GUI          │
+ └─────────────────────────────────────────────────┘
+                │                 ▲
+                │                 │
+                ▼                 │
+     ┌─────────────────────┐      │
+     │ Multi-Source Loader │<─────┘
+     └─────────────────────┘
+          │         │       \
+          │         │        \
+          ▼         ▼         ▼
+ ┌──────────────────────────────────┐
+ │    Advanced Processing Pipeline │
+ │ - Code Splitting (CodeSplitter) │
+ │ - Semantic Splitting            │
+ │ - Automatic Metadata Extraction │
+ └──────────────────────────────────┘
+                │
+                ▼
+    ┌───────────────────────────┐
+    │ Hybrid Indexing & Storage │
+    │- Weaviate (Vector Search) │
+    │- LlamaIndex (KG Index)    │
+    └───────────────────────────┘
+                │
+                ▼
+        ┌───────────────────┐
+        │ Query Orchestrator│
+        │- Multi-stage RAG  │
+        │- Re-ranking       │
+        └───────────────────┘
+                │
+                ▼
+       ┌─────────────────────┐
+       │ LLM Reasoning Layer │
+       │(Ollama, Cohere, etc.) 
+       └─────────────────────┘
+                │
+                ▼
+       ┌─────────────────────┐
+       │ Collaborative Tools │
+       │   - Chat & Annotations
+       │   - Shared Knowledge 
+       └─────────────────────┘
+```
+
 # Clone the repository
 ```
 git clone https://github.com/your-org/ai-knowledge-workbench-2025.git
