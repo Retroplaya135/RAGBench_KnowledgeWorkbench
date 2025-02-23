@@ -86,3 +86,19 @@ Domain-specific chunkers for specialized file types (e.g., UML diagrams, large c
 Custom re-rankers or classifiers for improved retrieval.
 Collaboration integrations (e.g., Slack, MS Teams).
 Security plugins (custom RBAC policies, advanced encryption at rest).
+
+```
+class Plugin:
+    def __init__(self, workbench):
+        self.workbench = workbench
+        # Perform plugin initialization
+        print("My Plugin is active!")
+
+    def on_document_ingested(self, documents):
+        # Optional hook for post-ingestion processing
+        pass
+
+    def on_query(self, query_text):
+        # Optional hook to transform or log queries
+        pass
+```
