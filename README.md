@@ -21,3 +21,15 @@ Installation
 * Python 3.9+
 * Weaviate (Can use Embedded Weaviate or a remote instance)
 * Virtual Environment recommended
+
+# Clone the repository
+git clone https://github.com/your-org/ai-knowledge-workbench-2025.git
+cd ai-knowledge-workbench-2025
+
+# Create and activate a virtualenv
+python3 -m venv venv
+source venv/bin/activate  # Linux/Mac
+venv\Scripts\activate     # Windows
+
+# Install Python dependencies
+pip install -r requirements.txt
