@@ -58,3 +58,15 @@ You can store these in a .env file or inject them through your CI/CD pipeline:
 export COHERE_API_KEY="<your-cohere-key>"
 export HF_API_KEY="<your-hf-key>"
 ```
+
+Quick Start
+
+Launch Weaviate (optional if using embedded)
+
+
+```
+docker run -d --name weaviate \
+    -p 8080:8080 \
+    semitechnologies/weaviate:latest
+```
+
