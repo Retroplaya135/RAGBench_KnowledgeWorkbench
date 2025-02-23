@@ -74,3 +74,15 @@ Open GUI
 * The system automatically opens a Tkinter-based GUI (requires a graphical environment).
 * Add codebases or documents using the “Add Codebase” or “Add Documents” buttons.
 * Query using the text box under Query Interface.
+
+Plugin System
+
+The Workbench supports a plugin architecture for extending ingestion, indexing, and retrieval capabilities:
+
+Plugin Directory
+Place Python modules in plugins/. Each plugin must implement a Plugin class with a constructor that takes the main RAGWorkbench object.
+Typical Use Cases
+Domain-specific chunkers for specialized file types (e.g., UML diagrams, large config files).
+Custom re-rankers or classifiers for improved retrieval.
+Collaboration integrations (e.g., Slack, MS Teams).
+Security plugins (custom RBAC policies, advanced encryption at rest).
