@@ -1,13 +1,13 @@
 # RAGBench_KnowledgeWorkbench
 
-AI Knowledge Workbench 2025
+AI Knowledge Workbench
 
 Enterprise RAG System for Developers
 A next-gen Retrieval-Augmented Generation (RAG) system that unifies vector search, knowledge graphs, and LLM-powered insights—all in an enterprise-ready platform tailored for complex developer workflows.
 
 Overview
 
-AI Knowledge Workbench 2025 is an advanced Retrieval-Augmented Generation (RAG) framework that combines:
+AI Knowledge Workbench is an advanced Retrieval-Augmented Generation (RAG) framework that combines:
 
 * Multi-source ingestion (codebases, documents, web, media).
 * Hybrid retrieval (Weaviate vector search + LlamaIndex knowledge graph).
@@ -24,7 +24,7 @@ Installation
 
 ```
  ┌─────────────────────────────────────────────────┐
- │       AI Knowledge Workbench 2025 GUI          │
+ │       AI Knowledge Workbench GUI                │
  └─────────────────────────────────────────────────┘
                 │                 ▲
                 │                 │
@@ -72,8 +72,8 @@ Installation
 
 # Clone the repository
 ```
-git clone https://github.com/your-org/ai-knowledge-workbench-2025.git
-cd ai-knowledge-workbench-2025
+git clone https://github.com/Retroplaya135/RAGBench_KnowledgeWorkbench/
+cd RAGBench_KnowledgeWorkbench
 ```
 
 # Create and activate a virtualenv
