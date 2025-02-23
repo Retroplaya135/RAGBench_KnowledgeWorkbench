@@ -102,3 +102,13 @@ class Plugin:
         # Optional hook to transform or log queries
         pass
 ```
+
+Collaboration & RBAC
+
+* Real-Time Chat & Annotation
+* Embeds a developer chat that references specific code snippets or documents within the knowledge graph.
+* Shared Knowledge Graph
+* Multiple users can collaborate and see real-time updates to the KG.
+* Access Control
+* Role-Based Access Control (RBAC) ensures only authorized users can access sensitive documents or code sections.
+* Audit logging captures ingestion, retrieval, and query usage data for compliance.
