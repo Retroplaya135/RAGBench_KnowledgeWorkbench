@@ -9,9 +9,9 @@ Overview
 
 AI Knowledge Workbench 2025 is an advanced Retrieval-Augmented Generation (RAG) framework that combines:
 
-# Multi-source ingestion (codebases, documents, web, media).
-# Hybrid retrieval (Weaviate vector search + LlamaIndex knowledge graph).
-# LLM-powered code analysis and codebase understanding.
-# Collaboration tools for real-time knowledge sharing and annotation.
-# Enterprise-ready features like auditing, RBAC, data lineage tracking, and plugin-based extensibility.
+* Multi-source ingestion (codebases, documents, web, media).
+* Hybrid retrieval (Weaviate vector search + LlamaIndex knowledge graph).
+* LLM-powered code analysis and codebase understanding.
+* Collaboration tools for real-time knowledge sharing and annotation.
+* Enterprise-ready features like auditing, RBAC, data lineage tracking, and plugin-based extensibility.
 
