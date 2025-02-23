@@ -51,3 +51,10 @@ COHERE_API_KEY: (Optional) For cross-encoder re-ranking or Cohere embedding.
 HF_API_KEY: (Optional) For Hugging Face-based re-ranking or embeddings.
 WEAVIATE_HOST: Host endpoint for Weaviate if not using embedded mode.
 WEAVIATE_PORT: Port for Weaviate if not using embedded mode.
+
+You can store these in a .env file or inject them through your CI/CD pipeline:
+
+```
+export COHERE_API_KEY="<your-cohere-key>"
+export HF_API_KEY="<your-hf-key>"
+```
