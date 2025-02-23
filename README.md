@@ -42,3 +42,12 @@ pip install -r requirements.txt
 * Additional Dependencies
 * Install libpq-dev, build-essential or other system-level dependencies if required by Weaviate or external libraries.
 * For GPU-based LLM backends, ensure CUDA drivers and libraries are installed.
+
+Configuration
+
+The system uses environment variables for advanced features:
+
+COHERE_API_KEY: (Optional) For cross-encoder re-ranking or Cohere embedding.
+HF_API_KEY: (Optional) For Hugging Face-based re-ranking or embeddings.
+WEAVIATE_HOST: Host endpoint for Weaviate if not using embedded mode.
+WEAVIATE_PORT: Port for Weaviate if not using embedded mode.
