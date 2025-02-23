@@ -124,3 +124,11 @@ class Plugin:
 * Detailed logs of user queries and system interactions for compliance.
 * Failover LLM
 * Supports fallback to alternative LLM endpoints if the primary service is unavailable or hits rate limits.
+
+Roadmap
+
+Improved Multi-Modal Support:
+Add OCR-based ingestion and advanced image embedding pipelines.
+
+Distributed Indexing:
+Automatic sharding for large codebases and multi-tenant usage.
