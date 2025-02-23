@@ -70,3 +70,7 @@ docker run -d --name weaviate \
     semitechnologies/weaviate:latest
 ```
 
+Open GUI
+* The system automatically opens a Tkinter-based GUI (requires a graphical environment).
+* Add codebases or documents using the “Add Codebase” or “Add Documents” buttons.
+* Query using the text box under Query Interface.
